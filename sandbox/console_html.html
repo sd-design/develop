@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+ <html lang="ru">
+ <head>
+<meta charset="utf-8">
+     <title></title>
+ </head>
+ <body>
+ 
+<div>This is my div</div>
+
+    <script>
+    "use strict";
+        var
+          body = document.body,
+          div = document.querySelector('div');
+
+        body.addEventListener('click', function() {
+            console.log('body')
+        }, false);
+
+        div.addEventListener('click', function() {
+            console.log('div')
+        }, true);
+
+
+
+var obj = {
+    result: 0,
+    print: function() {
+            console.log('result: ', this.result);
+    },
+    square: function(x){
+        this.result = x * x;
+            setTimeout(this.print, 100);
+    }
+}
+
+console.log(obj.square(2));
+
+for(var i=0;i<10;){
+   setTimeout('console.log(' + ++i + ')', 100);
+}
+
+let sayHello = "Hello!";
+{
+
+    let sayHello  =  "Hi!";
+    console.log( sayHello );
+}
+
+console.log( sayHello );
+    </script>
+ </body>
+ </html>
