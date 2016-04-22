@@ -1,14 +1,12 @@
 angular.module('ajaxApp', [])
  .controller('AjaxController', function($scope, $http) {
 
-$scope.SendRequest = function (){
+$scope.sendRequest = function (){
 
-	$http.get('contact.html').success(function (response){
+	$http({method: 'GET', url: '/angular/data/data.json'}).success(function (response){
 
-		$scope.page = response;
-	}
-
-		)
+		$scope.items = response;
+	})
 }
  
    });

@@ -11,8 +11,15 @@
 
 <div class="container">
 <br>
+<button class="btn btn-info" ng-click="sendRequest()">получить данные по ajax</button>
+<br>
 <div class="jumbotron" >
-{{ajaxApp.page}}
+	
+
+
+<ul ng-repeat="item in items">
+<li>{{item.name}} - {{item.price}}</li>
+</ul> 
 </div>
 </div>
 
