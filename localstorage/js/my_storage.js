@@ -17,7 +17,7 @@ $('#clean').fadeIn(2600);
 
 $('#clean').on('click','.upload', function(){
 
-keyname = 'val2';	
+keyname = 'val'+Math.floor((Math.random() * 15) + 1);	
 var now = new Date();
 $.localStorage.setItem(keyname, now);
 
