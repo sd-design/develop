@@ -1,0 +1,28 @@
+body{padding: 45px;}
+h2 {
+    font-family:arial;
+}
+
+form {
+    display: inline-block;
+}
+
+#button{
+    display: inline-block;
+    height:20px;
+	width:70px;
+	background-color:#cc0000;
+	font-family:arial;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin-top:2px;
+}
+
+.list {
+	font-family:garamond;
+	color:#cc0000;
+}
+.item{display:block; cursor: pointer; border: 1px dashed red; padding: 5px; font-size: 1.4em; width: 150px; border-radius: 6px;margin-top: 15px;}
+.check_data{display: none; color:red;}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>To Do</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<h2>To Do</h2>
+		<form name="checkListForm">
+			<input type="text" name="checkListItem"/>
+			<div class="col-md-4"><select class="form-control input-lg" name="dateFrom" id="dateFrom">
+<option value="0">с ...</option>
+<option value="1">1 августа</option>
+<option value="3">3 августа</option>
+<option value="4">4 августа</option>
+<option value="5">5 августа</option>
+<option value="6">6 августа</option>
+<option value="7">7 августа</option>
+<option value="8">8 августа</option>
+<option value="9">9 августа</option>
+</select></div>
+<div class="col-md-4"><select class="form-control input-lg" name="dateTo" id="dateTo">
+<option value="0">по ...</option>
+<option value="2">2 августа</option>
+<option value="3">3 августа</option>
+<option value="4">4 августа</option>
+<option value="5">5 августа</option>
+<option value="6">6 августа</option>
+<option value="7">7 августа</option>
+<option value="8">8 августа</option>
+<option value="9">9 августа</option>
+</select></div>
+		</form>
+		<div id="button">Add!</div>
+		<br/>
+		<div id="messages" class="list"></div>
+		<div class="check_data">ничего не выбрано</div>
+	</body>
+</html>

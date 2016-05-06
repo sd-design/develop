@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+img {
+    position: absolute; 
+}
+#bounce{border-radius:50%;width: 100px; height:100px; display:block; background: green; margin: 100px 0 50px 150px;}
