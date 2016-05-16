@@ -26,9 +26,6 @@
 <div class="col-md-2">
  <div class="alert alert-info">Его зовут:&nbsp;<span id="result_registration" ></span></div></div>
 
-	
-</div>
-
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/ajax_connect.js"></script>
 
