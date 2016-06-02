@@ -1,0 +1,20 @@
+doctype html
+html(lang='ru')
+head
+	title= page
+	meta(charset='utf-8')
+	link(rel='stylesheet' href='/css/bootstrap.min.css')
+	style
+		ul.nav a{text-transform: capitalize;}
+		
+body
+	.container
+		h1= page
+		hr
+		nav
+			ul.nav.nav-pills
+				each link in my_links
+					li: a(href=link)= link
+				li: a(href='/add') добавить
+		hr
+		block content
