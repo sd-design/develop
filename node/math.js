@@ -1,0 +1,11 @@
+var time = require('time');
+var now = new time.Date();
+console.log("---------------------------------------- \n"+now+"\n----------------------------------------");
+var number =Math.random(1,3);
+console.log(Math.PI+"\n");
+console.log(+"\n");
+console.log(Math.cos(3*Math.PI)+"\n");
+console.log(Math.random());
+console.log(Math.sqrt(9));
+console.log(Math.pow(7, 4));
+console.log("end.file");

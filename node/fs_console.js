@@ -26,11 +26,9 @@ console.log(data);
   });
 	}
 		else{
-fs.writeFileSync("hello.txt", line+'\n', {encoding:'utf-8', flag: 'a'}); 
+fs.writeFileSync("hello.txt", line+'\n', {encoding:'utf-8', flag: 'a'});
 var file = fs.readFileSync('hello.txt', {encoding:'utf-8'});
 console.log(file.green);
 console.log("--> данные записаны".red);
 }
 });
-
-

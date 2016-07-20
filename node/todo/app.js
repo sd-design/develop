@@ -9,7 +9,7 @@ var requestIp = require('request-ip');
 
 //data for pages
 var my_home ={
-home: {page:"Hello Mischa!!!", content: "This is Express and Jade template"},
+home: {page:"МОЙ TODO_LIST", content: "МОЙ TODO_LIST"},
 about: {page:"About page", content: "This is Express and Jade template for ABOUT page"},
 contact: {page:"Contact page", content: "This is Express and Jade template for Contact page"},
 профайл: {page:"Профиль", content: "Страница профиля"}

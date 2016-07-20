@@ -1,4 +1,7 @@
 var tasks = require('./tasks');
-list = tasks.change('');
 
-console.log(list);
+tasks.list(function (rows){
+console.log(rows);
+
+});
+

@@ -1,6 +1,6 @@
 <?php
-require_once('Evernote.class.php');
-require_once('Crypto.Class.php');
+require_once('Evernote.Class.php');
+require_once('Crypto.class.php');
 session_start();
 //создаем новый объект
 $mail = new Evernote();

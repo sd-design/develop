@@ -1,6 +1,6 @@
 <?php
 require_once('js/Evernote.Class.php');
-require_once('js/Crypto.Class.php');
+require_once('js/Crypto.class.php');
 session_start();
 
 // проверка ключей сессии и из формы
