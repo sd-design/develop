@@ -4,7 +4,7 @@ var fs = require('fs');
 http.createServer(function(request, response) {
   response.writeHead(200, {'Content-Type': 'text/html'});
   fs.readFile('subFolder/subscribe.html', function(error, contents){
-    
+
       response.end(contents);
   });
 
