@@ -11,8 +11,8 @@
 
 <div class="container">
 <br>
-<button class="btn btn-info" ng-click="sendRequest()">получить данные по ajax</button>
-<br>
+<button class="btn btn-info" ng-click="sendRequest()">получить данные по ajax</button> &nbsp;<button class="btn btn-info" ng-click="sendRequest2()">получить данные по ajax из php</button>&nbsp;<button class="btn btn-info" ng-click="sendRequest3()">получить данные по ajax из orders.php</button>
+<br/><br/>
 <div class="jumbotron" >
 	
 
@@ -20,6 +20,18 @@
 <ul ng-repeat="item in items">
 <li>{{item.name}} - {{item.price}}</li>
 </ul> 
+
+
+<div ng-repeat="post in posts">
+<h2>
+<a href='{{post.url}}'>{{post.title}}</a>
+</h2>
+<div class='time'>{{post.time}} - {{post.author}} </div>
+<p>{{post.description}}</p>
+<img ng-src="{{post.banner}}" />
+</div>
+   
+
 </div>
 </div>
 

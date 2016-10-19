@@ -1,0 +1,12 @@
+<?php 
+echo '[
+{"name" : "punkt 1", "price" : 1.20},
+{"name" : "punkt 2", "price" : 10.99},
+{"name" : "punkt 3", "price" : 4.52},
+{"name" : "punkt 4", "price" : 7.33},
+{"name" : "punkt 5", "price" : 6.20},
+{"name" : "punkt 6", "price" : 2.11},
+{"name" : "punkt 7", "price" : 1.02},
+{"name" : "punkt 8", "price" : 12.20}
+]';
+ ?>

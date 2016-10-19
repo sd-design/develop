@@ -1,3 +1,8 @@
+/*
+Challenge for vacancy of Frontend developer
+SD-DESIGN
+
+*/
 var calculator = function(){
 var result = 0;	
 
@@ -54,7 +59,7 @@ $('.result').html(result);
     });
     $( "#coma" ).on( "click", function() {
     if (result==0)result = '';
- 	result = result + '.';
+ 	result =  result + '.';
 $('.result').html(result);
     });
 

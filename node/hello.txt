@@ -14,3 +14,5 @@ wxit
 hello from console
 one more time
 php forever
+{'Hello', 'people', 'again'}{'Hello', 'people', 'again'}{'Hello', 'people', 'again'}{'Hello', 'people', 'again'}Да пишем
+yes

@@ -15,14 +15,15 @@ var rl = readline.createInterface({
 console.log("Пишем в файл.\n---------------------".inverse);
 rl.on('line', function(line){
 	if(line === "exit"){
-		console.log("Bye!");
+	
+		console.log("Thank you. Bye!".magenta);
 		process.exit(-1);}
 	if(line === "PHP"){
 		figlet.text("PHP FOREVER!", function(error, data) {
     if (error)
       console.error(error);
     else
-console.log(data);
+console.log(data.blue);
   });
 	}
 		else{
