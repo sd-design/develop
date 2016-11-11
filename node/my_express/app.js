@@ -6,6 +6,7 @@ var mysql = require('mysql');
 var fs = require('fs');
 var requestIp = require('request-ip');
 
+
 //data for pages
 var my_home ={
 home: {page:"Hello Mischa!!!", content: "This is Express and Jade template"},
@@ -87,8 +88,9 @@ if(!data){res.redirect('/'); return;}
 var clientIp = requestIp.getClientIp(req); 
 fs.writeFileSync(__dirname + '/logs/log.njs', clientIp+'\n', {encoding:'utf-8', flag: 'a'}); 
 });
-server = app.listen(3000, function(){
+server = app.listen(80, function(){
 
-console.log("Express is working on port ".yellow+"3000".white ); 	
+console.log("Express is working now ".yellow+"guy!!!".white ); 	
 });
+
 

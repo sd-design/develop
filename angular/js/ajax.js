@@ -24,4 +24,11 @@ $scope.sendRequest2 = function (){
 $scope.posts = data; // response data 
 })
 }
+ $scope.sendClear = function (){
+
+$scope.posts = ''; // response data 
+$scope.items = '';
+
+}
+
    });
