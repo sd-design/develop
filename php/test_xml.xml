@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<rss> 
+    <channel> 
+            <title>NY oficce</title> 
+            <adress>NY, Panfilova street 10</adress>
+            <phone>+7916 629-85-57</phone>
+            <link>https://www.sd-design.tk/</link>
+    </channel> 
+
+        <channel> 
+            <title>Moscow oficce</title> 
+            <adress>Moscow, Panfilova street 77</adress>
+            <phone>+7916 629-85-57</phone>
+            <link>https://www.ya.ru/</link>
+    </channel> 
+</rss>
