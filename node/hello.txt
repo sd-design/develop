@@ -16,3 +16,4 @@ one more time
 php forever
 {'Hello', 'people', 'again'}{'Hello', 'people', 'again'}{'Hello', 'people', 'again'}{'Hello', 'people', 'again'}Да пишем
 yes
+{'Hello', 'people', 'again'}{'Hello', 'people', 'again'}{'Hello', 'people', 'again'}{'Hello', 'people', 'again'}

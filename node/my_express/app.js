@@ -88,7 +88,7 @@ if(!data){res.redirect('/'); return;}
 var clientIp = requestIp.getClientIp(req); 
 fs.writeFileSync(__dirname + '/logs/log.njs', clientIp+'\n', {encoding:'utf-8', flag: 'a'}); 
 });
-server = app.listen(80, function(){
+server = app.listen(3000, function(){
 
 console.log("Express is working now ".yellow+"guy!!!".white ); 	
 });
