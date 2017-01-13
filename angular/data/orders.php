@@ -1,7 +1,7 @@
 <?php 
 echo '[
 { 
-"title":"Multiple Ajax Image Upload without Refreshing Page using Jquery.", 
+"title":"Используем Jquery.", 
 "url":"http://www.9lessons.info/2013/08/multiple-ajax-image-upload-refreshing.html",
 "banner":"multiple.jpg",
 "description":"Some Tesxt",

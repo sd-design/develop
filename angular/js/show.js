@@ -1,5 +1,5 @@
-angular.module('showApp', [])
- .controller('ShowController', function($scope) {
+angular.module('showApp', []);
+ app.controller('ShowController', function($scope) {
 
 $scope.showRequest = function (){
 	

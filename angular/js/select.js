@@ -1,5 +1,5 @@
 angular.module('ngrepeatSelect', [])
- .controller('ExampleController', ['$scope', function($scope) {
+ app.controller('ExampleController', ['$scope', function($scope) {
    $scope.data = {
     repeatSelect: null,
     availableOptions: [
