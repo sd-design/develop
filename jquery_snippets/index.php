@@ -49,6 +49,7 @@
 
 			</div>
 		</div>
+    <a class="get btn btn-warning" href="off.html" role="button" id="reload">функия .off()</a>
 </div>
 
 	<script src="js/jquery-1.11.2.min.js"></script>

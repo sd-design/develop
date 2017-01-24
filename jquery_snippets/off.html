@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Off function of Jquery</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/justified-nav.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script>
+    function my_off() {
+function action(){
+$('.jumbotron').fadeIn(500);
+}
+
+$('#action1').on('click', function(){
+action();
+});
+
+$('#off').on('click', function(){
+$("#action1").off('click');
+$('.jumbotron').fadeOut(500);
+$('#butt').removeClass('btn-info').addClass('btn-warning');
+$('#switch_on').fadeIn(500);
+});
+    }
+
+    $(document).ready(function(){
+my_off();
+$('#butt').on('click', function(){
+$('.jumbotron').fadeOut(500);
+
+});
+            $('#switch_on').on('click', function(){
+my_off();
+$('#butt').removeClass('btn-warning').addClass('btn-info');
+$('#switch_on').fadeOut(500);
+});
+    });
+    
+
+
+    
+    </script>
+</head>
+<body>
+   <div class="container">
+       <div class="jumbotron" style="display:none;">
+          <div class="pano"><h1>Привет всем!</h1></div>
+       </div>
+     
+           <div class="row">
+               <div class="col-md-8">
+                   <h3>Описание:</h3>
+                   <p>При нажатии "Отмена действия 1" происходит отключение события нажатия на кнопку "действие 1". <br>После нажатия на кнопку "включить действие 1" перезапускается основная функция и событие кнопки "действие 1" начинает снова срабатывать.</p>
+               </div>
+           </div>
+              <div class="exe">
+            <button class="btn btn-info" id="butt">скрыть текст</button>&nbsp;
+               <button class="btn btn-primary" id="action1">действие 1</button>&nbsp;<button class="btn btn-danger" id="off">отмена действия 1</button>&nbsp;<button class="btn btn-success" id="switch_on" style="display:none;">включить действие 1</button>
+           </div>
+   </div> 
+</body>
+</html>

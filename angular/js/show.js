@@ -1,5 +1,5 @@
 angular.module('showApp', []);
- app.controller('ShowController', function($scope) {
+ app.controller('ShowController', ['$scope',  function($scope) {
 
 $scope.showRequest = function (){
 	
@@ -12,4 +12,4 @@ jumbotron : true
 }
  
 
-   });
+ }]);
