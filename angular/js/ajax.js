@@ -3,25 +3,24 @@ angular.module('ajaxApp', [])
 
 $scope.sendRequest = function (){
 
-	$http({method: 'GET', url: '/angular/data/data.json'}).success(function (response){
-
-		$scope.items = response;
-	})
+	$http.get('/angular/data/data.json').then(function(response) {
+   $scope.items = response.data;
+  });
 }
 
 $scope.sendRequest2 = function (){
 
-	$http({method: 'GET', url: '/angular/data/data.php'}).success(function (response){
+	$http.get('/angular/data/data.php').then(function(response) {
 
-		$scope.items = response;
+		$scope.items = response.data;
 	})
 }
  
  $scope.sendRequest3 = function (){
 
-	$http({method: 'POST', url: '/angular/data/orders.php'}).success(function(data)
-{
-$scope.posts = data; // response data 
+	$http.post('/angular/data/orders.php').then(function(response) {
+
+$scope.posts = response.data; // response data 
 })
 }
  $scope.sendClear = function (){
